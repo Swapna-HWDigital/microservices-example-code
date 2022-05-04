@@ -1,0 +1,11 @@
+package com.hexaware.eurekaclient1.controller;
+
+@RestController
+public class ClientController1 {
+ 
+    @GetMapping("/client1")
+    public String client1() {
+        return "I am client 1";
+    }
+ 
+}
